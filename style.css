@@ -1,0 +1,408 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{ 
+    height: 100vh;
+} 
+.homepage{
+    /* border: 2px solid black; */
+    height: 100vh;
+    background-image: url("./images/hayley-ryczek-HQ22vVXhWcc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 20%; 
+}
+/* navbar */
+topnav a:hover{
+    background-color: #0D0D0D;
+    color: white;
+}
+.topnav a {
+    float: center;
+    color:#662400 ;
+    text-align: center;
+    padding: 30px 16px;
+    font-size: 30px;
+    text-decoration: none;
+    align-items: center;
+    /* border-bottom: 2px solid black; */
+}
+
+topnav a:hover{
+    background-color: #0D0D0D;
+    color: white;
+}
+.head{
+    font-size:50px;
+    padding-top: 60px;
+}
+.health{
+    color:#662400;
+}
+.text{
+    font-size: 25px;
+    color:#000B0D;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+#Ordernow{
+    border: 3px solid #662400;
+    padding:20px 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    COLOR: white;
+    /* color:#662400; */
+    /* text-align: center; */
+    background-color: #662400;
+}
+#Ordernow:hover{
+    /* background-color: #662400;; */
+    color: WHITE;;
+
+}
+.Ordernow{
+    margin-top: 7%;
+    /* text-align: ; */
+}
+
+/* .popularfoods{
+    border: 2px solid black;
+    height: 100vh; */
+/* Popular foods */
+ .popularFoods{ 
+    /* border: 2px solid yellow; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-radius: 30px;
+
+} 
+#popular{ 
+    text-align: center;
+    font-size: 30px;
+}
+#populartext{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+} 
+.food >img{
+    padding-top:80px;
+    width:280px;
+    border-radius: 50px;
+
+    /* justify-content: space-between; */
+
+}
+#cart{
+    border: 3px solid #662400;
+    padding:10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    COLOR: white;
+    /* color:#662400; */
+    /* text-align: center; */
+    background-color: #662400;
+}
+#cart:hover{
+    /* background-color: #662400;; */
+    color: WHITE;;
+
+}
+.buttoncart{
+    margin-top: 28%;
+}
+#dishfruit{
+    border: 3px solid #662400;
+    padding:10px 10px;
+    /* border-radius: 20px ; */
+    font-weight: bolder;
+    text-decoration: none;
+    COLOR: white;
+    /* color:#662400; */
+    /* text-align: center; */
+    background-color: #662400;
+}
+#dishf:hover{
+    /* background-color: #662400;; */
+    color: WHITE;;
+
+}
+.buttofruit{
+    margin-top: 28%;
+}
+/* SPECIAL OFFER WEBPAGE 3 */
+.specialoffer{
+    height: 80vh;
+    height: 100vh;
+    background-image: url("./images/farhad-ibrahimzade-Sk6my6_KTK0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 40%; 
+
+}
+#special{
+    color: aliceblue;
+    font-size: 48px;
+    padding-top: 10%;
+}
+#best{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top:35px;
+}
+#menu{
+    border: 3px solid #662400;
+    padding:14px 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    COLOR: white;
+    /* color:#662400; */
+    /* text-align: center; */
+    background-color: #662400;
+}
+#menu:hover{
+    /* background-color: #662400;; */
+    color: WHITE;;
+
+}
+.menu{
+    margin-top: 90px;
+}
+.num{
+    color: yellow;
+}
+.bestoffer{ 
+    /* border: 2px solid blue; */
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color:#C5E1A5 ; */
+}
+.mon{
+font-size: 28px;
+padding-top: 80px;
+color:#662400
+}
+#pa{
+font-size: 20px;
+padding-top: 15px;
+}
+.mon{
+    font-size: 28px;
+    padding-top: 80px;
+    color:#662400
+}
+#pa{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.flavors >img{
+    padding-top: 80px;
+    width: 500px;
+    /* border-radius: 20px; */
+    /* justify-content: space-between; */
+
+}
+#quality{
+    text-align: center;
+    padding-top: 24px;
+    color: black;
+    font-size: 20px;
+
+}
+#get{
+    text-align: center;
+    padding-top: 33px;
+    font-size: 40px;
+
+}
+#distance{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+
+}
+.services{
+    /* border: 2px solid black; */
+    height: 100vh;
+    /* text-align: center;  */
+    display: flex;
+    /* width: 300px; */
+}
+.icons{
+    /* border: 2px solid blue; */
+    width: 450px;
+    padding-top: 50px;
+}
+.icons >img{
+    width: 400px;
+}
+/* .seviceicon{
+    border: 2px green;
+} */
+/* .serviceicon{
+    border: 2px solid red;
+}
+#serv{
+    padding-top: 40px;
+} */
+.clients{
+    /* border: 2px solid green; */
+    height: 100vh;
+    text-align: center;
+    background-color: #FFCB3F;
+}
+#test{
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+#our{
+    font-size: 40px;
+    padding-top: 30px;
+}
+#french{
+    font-size: 20px;
+    padding-top:30px;
+
+}
+#comma{
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.App{
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: flex;
+     /* width:300px; */
+}
+.phone{
+    /* border: 2px solid red; */
+    width: 650px;
+
+}
+.phone >img{
+    width: 500px;
+}
+.word{
+    /* border: 2px solid green; */
+    width: 650px;
+
+}
+#download{
+    color:#F2AE30;
+    font-size: 20px;
+    padding-top: 150px;
+
+}
+#explain{
+    color: #000B0D;
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+#here{
+    color: #000B0D;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+.button{
+    display: flex;
+    white-space: break-spaces;
+    /* justify-content: space-between; */
+    /* width: 100px; */
+}
+#play{
+    border: 3px solid yellow;
+    padding:10px 18px;
+    border-radius: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    COLOR: white;
+    /* color:#662400; */
+    /* text-align: center; */
+    background-color: yellow;
+}
+#play:hover{
+    /* background-color: #662400;; */
+    color: WHITE;;
+
+}
+.play{
+    margin-top: 45px;
+}
+
+#store{
+    border: 3px solid yellow;
+    padding:10px 25px;
+    border-radius: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    COLOR: white;
+    /* color:#662400; */
+    /* text-align: center; */
+    background-color: yellow;
+}
+#store:hover{
+    /* background-color: #662400;; */
+    color: WHITE;;
+
+}
+.store{
+    margin-top: 15px;
+}
+ .newsletter{
+    /* border: 2px solid black; */
+    height: 100vh; 
+    /* width: 200px; */
+
+ }
+ #sub{
+    /* border: 2px solid#000B0D; */
+    height: 200px;
+    /* background-color:#BF947A; */
+    display: flex;
+ }
+ #input{
+    padding-left: 40%;
+    padding-top: 30px;
+    height: 90px;
+ }
+ 
+ #scribe{
+    font-size:18px;
+    padding-top: 20px;
+ }
+ #black{
+    /* border:2px solid #662400; */
+    height: 315px;
+    background-color: #000B0D;
+ }
+ #terms{
+    /* border:2px solid #F2AE30; */
+    height:75px;
+    background-color: #F2AE30;
+ }
+ .list{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+ }
+ #listss{
+    color: white;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    text-align: right;
+ }
+ 
